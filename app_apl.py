@@ -10,7 +10,7 @@ appearance = st.number_input("Number of Appearances", min_value=0, step=1)
 #goals = st.number_input("Goals", min_value=0, step=1)
 
 # Prepare input data for prediction
-input_data = pd.DataFrame([[minutes_played, appearance ]], columns=["minutes_played","goals"])
+input_data = pd.DataFrame([[minutes_played, appearance ]], columns=["minutes_played","appearance"])
 
 # Display the input data to the user
 st.write("Input Data:")
